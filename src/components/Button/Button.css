@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap");
+
+:root {
+  --primary: #ff2828;
+  --warning: #7328ff;
+  --danger: #27a3eb;
+  --success: #00ff40;
+  --white: #fdfdfd;
+  --dark: #18171700;
+}
+
+.btn {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  border-radius: 40px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+
+  padding: 10px 20px;
+  font-size: 20px;
+}
+
+.btn:hover {
+  transform: translateY(-3px);
+}
+
+/* Button colors and styles */
+.btn--primary--solid {
+  background-color: var(--primary);
+  color: var(--white);
+  border: none;
+}
+
+.btn--warning--solid {
+  background-color: var(--warning);
+  color: var(--white);
+  border: none;
+}
+
+.btn--danger--solid {
+  background-color: var(--danger);
+  color: var(--white);
+  border: none;
+}
+
+.btn--success--solid {
+  background-color: var(--success);
+  color: var(--white);
+  border: none;
+}
+
+.btn--primary--outline {
+  background-color: transparent;
+  border-color: var(--primary);
+}
+.btn--warning--outline {
+  background-color: transparent;
+  border-color: var(--warning);
+}
+
+.btn--danger--outline {
+  background-color: transparent;
+  border-color: var(--danger);
+}
+
+.btn--success--outline {
+  background-color: transparent;
+  border-color: var(--success);
+}
