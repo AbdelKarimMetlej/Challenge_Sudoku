@@ -39,13 +39,13 @@ const GameDetails: React.FC<GameDetailsProps> = ({
 
     // Conditionally load different animation based on the game result
     if (isPlayerWon && hintsTaken === 0) {
-      animationData = require("../../assets/animations/ChampionWinnerAnimation/ChampionWinnerAnimation.json");
+      animationData = require("../../assets/ChampionWinnerAnimation/ChampionWinnerAnimation.json");
     } else if (isPlayerWon && pressedSolve) {
-      animationData = require("../../assets/animations/LoserAnimation/LoserAnimation.json");
+      animationData = require("../../assets/LoserAnimation/LoserAnimation.json");
     } else if (isPlayerWon) {
-      animationData = require("../../assets/animations/GameWonAnimation/GameWonAnimation.json");
+      animationData = require("../../assets/GameWonAnimation/GameWonAnimation.json");
     } else {
-      animationData = require("../../assets/animations/KeepTryingAnimation/KeepTryingAnimation.json");
+      animationData = require("../../assets/KeepTryingAnimation/KeepTryingAnimation.json");
     }
 
     const container = document.getElementById("lottieAnimation");

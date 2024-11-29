@@ -1,8 +1,8 @@
 import React, { useEffect, useRef } from "react";
 import lottie, { AnimationItem, RendererType } from "lottie-web";
-import easyDifficultyAnimationData from "../../assets/animations/DifficultyAnimations/EasyDifficultyAnimation/EasyDifficultyAnimation.json";
-import mediumDifficultyAnimationData from "../../assets/animations/DifficultyAnimations/MediumDifficultyAnimation/MediumDifficultyAnimation.json";
-import hardDifficultyAnimationData from "../../assets/animations/DifficultyAnimations/HardDifficultyAnimation/HardDifficultyAnimation.json";
+import easyDifficultyAnimationData from "../../assets/DifficultyAnimations/EasyDifficultyAnimation/EasyDifficultyAnimation.json";
+import mediumDifficultyAnimationData from "../../assets/DifficultyAnimations/MediumDifficultyAnimation/MediumDifficultyAnimation.json";
+import hardDifficultyAnimationData from "../../assets/DifficultyAnimations/HardDifficultyAnimation/HardDifficultyAnimation.json";
 import "./DifficultySelectionModal.css";
 import Button from "../Button/Button";
 
